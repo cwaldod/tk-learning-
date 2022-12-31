@@ -10,12 +10,12 @@ def print_num():
     label_2.grid(row=3, column=0, columnspan=3)
 
 
-window_1.frame()
+window_1.columnconfigure(0,)
 label_1 = Label(window_1, text="enter number")
 # label_2 = Label(window_1, text="your number'is")
 window_1.title('Number plus 1')
 window_1.geometry("200x200+100+100")
-
+window_1.wm_title('the')
 
 entry_1 = Entry(window_1, border=4)
 button_1 = Button(window_1, text='see number button',
