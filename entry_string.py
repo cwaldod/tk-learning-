@@ -10,6 +10,7 @@ def print_num():
     label_2.grid(row=3, column=0, columnspan=3)
 
 
+# Lucy is Charleis freind
 window_1.columnconfigure(0,)
 label_1 = Label(window_1, text="enter number")
 # label_2 = Label(window_1, text="your number'is")
